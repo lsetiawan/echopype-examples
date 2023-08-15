@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - ipykernel
+  - s3fs
+  - geopandas
+  - cartopy
+  # -- holoviz --
+  - datashader
+  - holoviews
+  - hvplot
+  - pip
+  - pip:
+    - git+https://github.com/lsetiawan/echopype.git@fix_mvbs
